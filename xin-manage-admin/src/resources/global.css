@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-btn-primary{
+    background-color: #1677ff !important;
+}
+
+.ant-upload-wrapper.ant-upload-picture-card-wrapper .ant-upload-list.ant-upload-list-picture-card .ant-upload-list-item-container, .ant-upload-wrapper.ant-upload-picture-card-wrapper .ant-upload.ant-upload-select{
+    width: 200px !important;
+    height: 200px !important;
+}
+
+.ant-upload-list-item-actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.ant-switch{
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.ant-select-dropdown{
+    z-index: 99999;
+}
